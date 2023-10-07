@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.6" name="screen-border-full" tilewidth="132" tileheight="80" tilecount="10" columns="5" objectalignment="bottom">
- <tileoffset x="0" y="40"/>
+<tileset version="1.8" tiledversion="1.8.6" name="screen-border-full" tilewidth="132" tileheight="80" tilecount="10" columns="5" objectalignment="top">
+ <tileoffset x="0" y="60"/>
  <image source="screen-border-full.png" width="660" height="160"/>
  <tile id="0">
   <animation>
