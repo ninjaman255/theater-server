@@ -4,16 +4,16 @@
  <image source="screen-border-full.png" width="660" height="160"/>
  <tile id="0">
   <animation>
-   <frame tileid="0" duration="500"/>
-   <frame tileid="1" duration="500"/>
-   <frame tileid="2" duration="500"/>
-   <frame tileid="3" duration="500"/>
-   <frame tileid="4" duration="500"/>
-   <frame tileid="5" duration="500"/>
-   <frame tileid="6" duration="500"/>
-   <frame tileid="7" duration="500"/>
-   <frame tileid="8" duration="500"/>
-   <frame tileid="9" duration="500"/>
+   <frame tileid="0" duration="100"/>
+   <frame tileid="1" duration="100"/>
+   <frame tileid="2" duration="100"/>
+   <frame tileid="3" duration="100"/>
+   <frame tileid="4" duration="100"/>
+   <frame tileid="5" duration="100"/>
+   <frame tileid="6" duration="100"/>
+   <frame tileid="7" duration="100"/>
+   <frame tileid="8" duration="100"/>
+   <frame tileid="9" duration="100"/>
   </animation>
  </tile>
 </tileset>
