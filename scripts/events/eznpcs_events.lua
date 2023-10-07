@@ -9,16 +9,16 @@ local helpers = require('scripts/ezlibs-scripts/helpers')
 
 local ScaleNPC = {
     name = "ScaleNPC",
-    action = function(npc, player_id)
-        return 
-            Net.animate_bot_properties(npc.id, {
+    action = function(npc, player_id, dialogue, relay_object)
+        return async(function()
+            return Net.animate_bot_properties(npc.id, {
                   properties = {
                     { property = "ScaleX", value = 2,},
                     { property = "ScaleY", value = 2,}
                   },
                 duration = 0  
               })
-        
+        end)
     end
 }
 eznpcs.add_event(ScaleNPC)
