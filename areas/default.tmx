@@ -39,7 +39,7 @@
     <property name="Interact Relay" type="object" value="9"/>
    </properties>
   </object>
-  <object id="9" name="Episode 1" type="NPC" x="128" y="128">
+  <object id="9" name="Episode 1" type="NPC" x="129.5" y="128.5">
    <properties>
     <property name="Asset Name" value="episode1"/>
     <property name="Dialogue Type" value="none"/>
