@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="7" height="7" tilewidth="128" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="160">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="7" height="7" tilewidth="128" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="161">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/bg/darkness.animation"/>
