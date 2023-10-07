@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.6" name="screen-border-full" tilewidth="137" tileheight="80" tilecount="10" columns="5">
+<tileset version="1.8" tiledversion="1.8.6" name="screen-border-full" tilewidth="137" tileheight="80" tilecount="10" columns="5" objectalignment="top">
  <image source="screen-border-full.png" width="685" height="160"/>
  <tile id="0">
   <animation>
