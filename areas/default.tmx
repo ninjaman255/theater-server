@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="7" height="7" tilewidth="128" tileheight="64" infinite="0" nextlayerid="3" nextobjectid="144">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="7" height="7" tilewidth="128" tileheight="64" infinite="0" nextlayerid="3" nextobjectid="145">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/bg/darkness.animation"/>
@@ -16,6 +16,7 @@
  <tileset firstgid="14" source="../assets/tiles/Black-Floor.tsx"/>
  <tileset firstgid="38" source="../assets/tiles/SpecialBlockerObject.tsx"/>
  <tileset firstgid="48" source="../assets/tiles/Floor-Lights.tsx"/>
+ <tileset firstgid="51" source="../assets/tiles/screen-border.tsx"/>
  <layer id="1" name="Tile Layer 1" width="7" height="7">
   <data encoding="csv">
 0,0,0,0,0,0,0,
@@ -38,7 +39,7 @@
     <property name="Interact Relay" type="object" value="9"/>
    </properties>
   </object>
-  <object id="9" name="Episode 1" type="NPC" x="176.5" y="177.5">
+  <object id="9" name="Episode 1" type="NPC" x="128" y="128">
    <properties>
     <property name="Asset Name" value="episode1"/>
     <property name="Dialogue Type" value="none"/>
@@ -147,5 +148,6 @@
   <object id="140" name="Lights" gid="48" x="318.5" y="259.5" width="4" height="4"/>
   <object id="141" name="Lights" gid="48" x="342.5" y="283.5" width="4" height="4"/>
   <object id="143" name="Lights" gid="48" x="312.5" y="253.5" width="4" height="4"/>
+  <object id="144" gid="51" x="78.5" y="77.5" width="130" height="78"/>
  </objectgroup>
 </map>
