@@ -12,13 +12,10 @@ local ScaleNPC = {
     action = function(npc, player_id, dialogue, relay_object)
         return async(function()
             Net.animate_bot_properties(npc.id, {
-                {
                   properties = {
-                    { property = "ScaleX", value = 2, "scaling"},
-                    { property = "ScaleY", value = 2, "scaling"}
+                    { property = "ScaleX", value = 2,},
+                    { property = "ScaleY", value = 2,}
                   },
-                  duration = .25
-                }
               })
         end)
     end
