@@ -42,6 +42,7 @@
     <property name="Asset Name" value="episode1"/>
     <property name="Direction" value="Down"/>
     <property name="Dont Face Player" type="bool" value="true"/>
+    <property name="Event Name" value="ScaleNPC"/>
    </properties>
    <point/>
   </object>
