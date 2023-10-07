@@ -40,6 +40,7 @@
   <object id="9" name="Episode 1" type="NPC" x="118" y="118">
    <properties>
     <property name="Asset Name" value="episode1"/>
+    <property name="Dialogue Type" value="event"/>
     <property name="Direction" value="Down"/>
     <property name="Dont Face Player" type="bool" value="true"/>
     <property name="Event Name" value="ScaleNPC"/>
