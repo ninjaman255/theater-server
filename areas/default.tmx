@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="7" height="7" tilewidth="128" tileheight="64" infinite="0" nextlayerid="3" nextobjectid="156">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="7" height="7" tilewidth="128" tileheight="64" infinite="0" nextlayerid="3" nextobjectid="157">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/bg/darkness.animation"/>
@@ -18,6 +18,7 @@
  <tileset firstgid="48" source="../assets/tiles/Floor-Lights.tsx"/>
  <tileset firstgid="51" source="../assets/tiles/screen-border.tsx"/>
  <tileset firstgid="52" source="../assets/tiles/crv-filter.tsx"/>
+ <tileset firstgid="54" source="../assets/tiles/screen-border-full.tsx"/>
  <layer id="1" name="Tile Layer 1" width="7" height="7">
   <data encoding="csv">
 0,0,0,0,0,0,0,
@@ -143,7 +144,6 @@
   <object id="140" name="Lights" gid="48" x="318.5" y="259.5" width="4" height="4"/>
   <object id="141" name="Lights" gid="48" x="342.5" y="283.5" width="4" height="4"/>
   <object id="143" name="Lights" gid="48" x="312.5" y="253.5" width="4" height="4"/>
-  <object id="154" gid="52" x="129" y="127" width="75" height="45"/>
-  <object id="155" gid="51" x="77" y="75" width="137" height="81"/>
+  <object id="156" gid="54" x="156" y="156" width="137" height="80"/>
  </objectgroup>
 </map>
