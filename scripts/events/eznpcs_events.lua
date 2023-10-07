@@ -16,7 +16,8 @@ local ScaleNPC = {
                     { property = "ScaleX", value = 2,},
                     { property = "ScaleY", value = 2,}
                   },
-              })
+                duration = 0  
+              } )
         end)
     end
 }
