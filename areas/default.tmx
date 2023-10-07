@@ -34,15 +34,9 @@
     <property name="Direction" value="Up"/>
    </properties>
   </object>
-  <object id="8" name="Collission Mask" gid="38" x="176.75" y="177.25" width="293" height="1" visible="0">
-   <properties>
-    <property name="Interact Relay" type="object" value="9"/>
-   </properties>
-  </object>
   <object id="9" name="Episode 1" type="NPC" x="129.5" y="128.5">
    <properties>
     <property name="Asset Name" value="episode1"/>
-    <property name="Dialogue Type" value="none"/>
     <property name="Direction" value="Down"/>
     <property name="Dont Face Player" type="bool" value="true"/>
    </properties>
