@@ -143,7 +143,7 @@
   <object id="140" name="Lights" gid="48" x="318.5" y="259.5" width="4" height="4"/>
   <object id="141" name="Lights" gid="48" x="342.5" y="283.5" width="4" height="4"/>
   <object id="143" name="Lights" gid="48" x="312.5" y="253.5" width="4" height="4"/>
-  <object id="156" gid="54" x="117" y="115" width="137" height="80"/>
+  <object id="156" gid="54" x="16.5" y="15.5" width="137" height="80"/>
   <object id="157" gid="38" x="145" y="145" width="136" height="5" visible="0"/>
  </objectgroup>
 </map>
