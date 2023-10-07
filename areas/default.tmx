@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="7" height="7" tilewidth="128" tileheight="64" infinite="0" nextlayerid="3" nextobjectid="145">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="7" height="7" tilewidth="128" tileheight="64" infinite="0" nextlayerid="3" nextobjectid="156">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/bg/darkness.animation"/>
@@ -17,6 +17,7 @@
  <tileset firstgid="38" source="../assets/tiles/SpecialBlockerObject.tsx"/>
  <tileset firstgid="48" source="../assets/tiles/Floor-Lights.tsx"/>
  <tileset firstgid="51" source="../assets/tiles/screen-border.tsx"/>
+ <tileset firstgid="52" source="../assets/tiles/crv-filter.tsx"/>
  <layer id="1" name="Tile Layer 1" width="7" height="7">
   <data encoding="csv">
 0,0,0,0,0,0,0,
@@ -34,7 +35,7 @@
     <property name="Direction" value="Up"/>
    </properties>
   </object>
-  <object id="9" name="Episode 1" type="NPC" x="129.5" y="128.5">
+  <object id="9" name="Episode 1" type="NPC" x="128" y="128">
    <properties>
     <property name="Asset Name" value="episode1"/>
     <property name="Direction" value="Down"/>
@@ -142,6 +143,7 @@
   <object id="140" name="Lights" gid="48" x="318.5" y="259.5" width="4" height="4"/>
   <object id="141" name="Lights" gid="48" x="342.5" y="283.5" width="4" height="4"/>
   <object id="143" name="Lights" gid="48" x="312.5" y="253.5" width="4" height="4"/>
-  <object id="144" gid="51" x="78.5" y="77.5" width="130" height="78"/>
+  <object id="154" gid="52" x="129" y="127" width="75" height="45"/>
+  <object id="155" gid="51" x="77" y="75" width="137" height="81"/>
  </objectgroup>
 </map>
