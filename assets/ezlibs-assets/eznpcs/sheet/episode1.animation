@@ -1,5 +1,5 @@
-imagePath="output.png"
-animation state="BG"
+imagePath="episode1.png"
+animation state="IDLE_D"
 frame duration="0.033" x="0" y="0" w="70" h="45" originx="35" originy="45"
 frame duration="0.29700000000000004" x="70" y="0" w="70" h="45" originx="35" originy="45"
 frame duration="0.099" x="140" y="0" w="70" h="45" originx="35" originy="45"
