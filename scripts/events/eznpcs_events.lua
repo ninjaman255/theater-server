@@ -14,9 +14,10 @@ local ScaleNPC = {
             Net.animate_bot_properties(npc, {
                 {
                   properties = {
-                    { property = "ScaleX", value = 2,},
-                    { property = "ScaleY", value = 2,}
+                    { property = "ScaleX", value = 2, "scaling"},
+                    { property = "ScaleY", value = 2, "scaling"}
                   },
+                  duration = .25
                 }
               })
         end)
