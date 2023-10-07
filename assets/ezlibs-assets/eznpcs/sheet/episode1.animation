@@ -1,8 +1,6 @@
 imagePath="episode1.png"
 animation state="IDLE_D"
-frame duration="0.066" x="560" y="0" w="70" h="45" originx="35" originy="45"
-frame duration="0.033" x="630" y="0" w="70" h="45" originx="35" originy="45"
-frame duration="0.066" x="700" y="0" w="70" h="45" originx="35" originy="45"
+
 frame duration="0.033" x="770" y="0" w="70" h="45" originx="35" originy="45"
 frame duration="0.033" x="840" y="0" w="70" h="45" originx="35" originy="45"
 frame duration="0.033" x="910" y="0" w="70" h="45" originx="35" originy="45"
