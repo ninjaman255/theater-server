@@ -1,1 +1,1 @@
-./net_battle_server -p 3000
+./net_battle_server --max-payload-size 5000 --resend-budget 100000 -p 5555
