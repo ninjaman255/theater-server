@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="isometric" renderorder="right-down" width="7" height="7" tilewidth="128" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="162">
+<map version="1.10" tiledversion="1.11.2" orientation="isometric" renderorder="right-down" width="7" height="7" tilewidth="128" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="163">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/bg/darkness.animation"/>
@@ -152,6 +152,15 @@
    </properties>
   </object>
   <object id="159" gid="64" x="450.5" y="450.5" width="866" height="453"/>
+  <object id="162" type="NPC" x="144" y="176">
+   <properties>
+    <property name="Asset Name" value="prog"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Text 1" value="Interact with the screen to start episode 1!"/>
+   </properties>
+   <point/>
+  </object>
  </objectgroup>
  <layer id="3" name="Tile Layer 2" width="7" height="7" offsetx="0" offsety="-16">
   <data encoding="csv">
