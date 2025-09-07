@@ -29,7 +29,12 @@ local PlayEpisode = {
     return async(function()
       local bot_id = npc.bot_id
       local area_id = Net.get_player_area(player_id)
-      Net.set_song(area_id, "/server/assets/music/episode1.ogg")
+      local blockerRelay = Net.get_object_by_name(area_id, "Blocker Relay")
+      -- Net.play_sound(area_id, "/server/assets/music/episode.ogg")
+      Net.play_sound_for_player(player_id, "/server/assets/music/episode1.ogg")
+      Net.exclude_object_for_player(player_id, relay_object.id)
+      Net.include_object_for_player(player_id, blockerRelay.id)
+      Net.set_object_visibility(area_id, blockerRelay.id, false)
       return Net.animate_bot(bot_id, "PLAY")
     end)
   end
