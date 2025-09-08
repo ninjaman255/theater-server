@@ -5,7 +5,7 @@ local preloadForPlayer = {}
 
 local assetPaths = { episode1 = "/server/assets/music/episode1.ogg" }
 
-Net:on("player_connect", function(event)
+Net:on("player_join", function(event)
     players[event.player_id] = "online"
 
     local interactRelay = Net.get_object_by_name("default", "Interact Relay")
