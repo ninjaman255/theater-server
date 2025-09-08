@@ -140,7 +140,7 @@
     <property name="Interact Relay" type="object" value="9"/>
    </properties>
   </object>
-  <object id="159" gid="64" x="450.5" y="450.5" width="866" height="453" visible="0"/>
+  <object id="159" gid="64" x="450.5" y="450.5" width="866" height="453"/>
   <object id="162" type="NPC" x="144" y="176">
    <properties>
     <property name="Asset Name" value="prog"/>
